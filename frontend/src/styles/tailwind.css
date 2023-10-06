@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-list-item {
+    transition: 0.5s;
+}
+
+.ant-list-item:hover {
+     background-color: #3B01E1;
+}
+
+.add-review .ant-list-item:hover {
+    box-shadow: 1px 1px 24px #5E2EFF;
+    background-color: black;
+
+}
+
+.ant-list-item-meta-title {
+
+    overflow-wrap: break-word;
+}
+
+.ant-spin-dot-item {
+  background-color: white!important;
+}
+
+.ant-spin-text { color: white; }
